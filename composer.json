@@ -1,42 +1,44 @@
 {
-    "name": "model-log",
-    "description": "Voyager Model Log",
-    "type": "library",
-    "tags": [
-        "laravel",
-        "voyager",
-        "logging"
-    ],
-    "require": {
-        "php": "^7.0",
-        "ext-json": "*",
-        "jenssegers/agent": "^2.6",
-        "larapack/hooks": "~1.0",
-        "laravel/framework": "^6.0",
-        "tcg/voyager": "^1.0"
-    },
-    "license": "MIT",
-    "authors": [{
-        "name": "Jahongir Dustqulov",
-        "email": "jahondust@gmail.com"
-    }],
-    "autoload": {
-        "psr-4": {
-            "Jahondust\\ModelLog\\": "src/"
-        }
-    },
-    "extra": {
-        "hook": {
-            "providers": [
-                "Jahondust\\ModelLog\\ModelLogServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "model-log",
+  "description": "Voyager Model Log",
+  "type": "library",
+  "tags": [
+    "laravel",
+    "voyager",
+    "logging"
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-json": "*",
+    "jenssegers/agent": "^2.6",
+    "larapack/hooks": "~1.0",
+    "laravel/framework": "^6.0",
+    "tcg/voyager": "^1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jahongir Dustqulov",
+      "email": "jahondust@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zickcrow\\ModelLog\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "Zickcrow\\ModelLog\\ModelLogServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

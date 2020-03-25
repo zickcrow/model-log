@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jahondust\ModelLog\Traits;
+namespace Zickcrow\ModelLog\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Jahondust\ModelLog\Models\ModelLog;
+use Zickcrow\ModelLog\Models\ModelLog;
 
 trait ModelLogging
 {

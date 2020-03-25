@@ -1,11 +1,11 @@
 <?php
 
-namespace Jahondust\ModelLog\Controllers;
+namespace Zickcrow\ModelLog\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
-use Jahondust\ModelLog\Models\ModelLog;
+use Zickcrow\ModelLog\Models\ModelLog;
 use TCG\Voyager\Http\Controllers\Controller;
 
 class ModelLogController extends Controller

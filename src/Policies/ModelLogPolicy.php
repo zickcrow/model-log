@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jahondust\ModelLog\Policies;
+namespace Zickcrow\ModelLog\Policies;
 
 
 use Illuminate\Foundation\Auth\User;
-use Jahondust\ModelLog\Models\ModelLog;
+use Zickcrow\ModelLog\Models\ModelLog;
 
 class ModelLogPolicy
 {

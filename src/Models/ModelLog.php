@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jahondust\ModelLog\Models;
+namespace Zickcrow\ModelLog\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Jenssegers\Agent\Agent;
